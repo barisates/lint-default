@@ -16,6 +16,12 @@ $ npm install eslint-plugin-jsx-a11y
 $ npm install eslint-plugin-react
 ```
 
+**Settings File**
+```
+.eslintignore
+.eslintrc.json
+```
+
 #### [Stylelint](https://github.com/stylelint/stylelint "Stylelint")
 
 A mighty, modern linter that helps you avoid errors and enforce conventions in your styles.
@@ -24,4 +30,22 @@ A mighty, modern linter that helps you avoid errors and enforce conventions in y
 ```
 $ npm install stylelint
 $ npm install stylelint-config-standard
+```
+
+**Settings File**
+```
+.stylelintignore
+.stylelintrc.json
+```
+
+#### Scripts
+```json
+"scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "set CI=true&&react-scripts test --coverage",
+    "eject": "react-scripts eject",
+    "lint:css": "stylelint ./src/**/*.css",
+    "lint:js": "eslint ./src/**/*.js"
+  }
 ```
