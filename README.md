@@ -1,16 +1,13 @@
 # lint-default
-ESLint, Stylelint default settings.
+The default lint settings and packages we use in our projects.
 
-ESLint Package
-eslint
-eslint-config-airbnb
-eslint-config-react-app
-eslint-plugin-flowtype
-eslint-plugin-import
-eslint-plugin-jest
-eslint-plugin-jsx-a11y
-eslint-plugin-react
+**Table of Contents**
 
-Stylelint Package
-stylelint
-stylelint-config-standard
+[TOC]
+
+### React
+Default ESLint, Stylelint settings and packages in React applications.
+
+### Core
+
+Default Code Analyzer settings in ASP.NET Core applications.
