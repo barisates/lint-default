@@ -1,5 +1,5 @@
 ## React
-Default ESLint, Stylelint settings and packages in React applications.
+Default **ESLint**, **Stylelint** settings and packages in React applications.
 
 #### [ESLint](https://github.com/eslint/eslint "ESLint")
 ESLint is a tool for identifying and reporting on patterns found in ECMAScript/JavaScript code.
