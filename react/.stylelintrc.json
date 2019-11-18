@@ -1,0 +1,21 @@
+{
+  "extends": [
+    "stylelint-config-standard"
+  ],
+  "rules": {
+    "selector-list-comma-newline-after": "never-multi-line",
+    "selector-combinator-space-after": "never",
+    "selector-combinator-space-before": "never",
+    "declaration-colon-newline-after": null,
+    "value-list-max-empty-lines": null,
+    "rule-empty-line-before": [
+      "always",
+      {
+        "ignore": [
+          "inside-block"
+        ]
+      }
+    ]
+  },
+  "syntax": "scss"
+}
