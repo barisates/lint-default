@@ -6,16 +6,21 @@ ESLint is a tool for identifying and reporting on patterns found in ECMAScript/J
 
 **Used Packages**
 ```
-$ npm install eslint
-$ npm install eslint-config-airbnb
-$ npm install eslint-config-react-app
-$ npm install eslint-plugin-flowtype
-$ npm install eslint-plugin-import
-$ npm install eslint-plugin-jest
-$ npm install eslint-plugin-jsx-a11y
-$ npm install eslint-plugin-react
+npm install --save-dev eslint
+npm install --save-dev eslint-config-airbnb
+npm install --save-dev eslint-config-react-app
+npm install --save-dev eslint-plugin-flowtype
+npm install --save-dev eslint-plugin-import
+npm install --save-dev eslint-plugin-jest
+npm install --save-dev eslint-plugin-jsx-a11y
+npm install --save-dev eslint-plugin-react
 ```
 
+You can use the command below to install all the packages at once.
+
+```
+npm install --save-dev eslint eslint-config-airbnb eslint-config-react-app eslint-plugin-flowtype eslint-plugin-import eslint-plugin-jest eslint-plugin-jsx-a11y eslint-plugin-react
+```
 **Settings File**
 ```
 .eslintignore
@@ -28,8 +33,8 @@ A mighty, modern linter that helps you avoid errors and enforce conventions in y
 
 **Used Packages**
 ```
-$ npm install stylelint
-$ npm install stylelint-config-standard
+npm install stylelint
+npm install stylelint-config-standard
 ```
 
 **Settings File**
