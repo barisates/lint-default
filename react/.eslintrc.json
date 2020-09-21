@@ -45,6 +45,7 @@
     "react/jsx-curly-newline": 0,
     "react/static-property-placement": 0,
     "react/state-in-constructor": 0,
+    "no-plusplus":0,
     "react/no-array-index-key": 0,
     "jsx-a11y/label-has-associated-control": 0,
     "jsx-a11y/control-has-associated-label": 0
