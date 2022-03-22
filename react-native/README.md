@@ -11,11 +11,12 @@ npm install --save-dev eslint-config-airbnb
 npm install --save-dev eslint-plugin-import
 npm install --save-dev eslint-plugin-react
 npm install --save-dev eslint-plugin-jsx-a11y
-npm install --save-dev babel-eslint
+npm install --save-dev @babel/eslint-parser
+npm install --save-dev eslint-plugin-react-hooks
 ```
 You can use the command below to install all the packages at once.
 ```
-npm install --save-dev eslint eslint-config-airbnb eslint-plugin-import eslint-plugin-react eslint-plugin-jsx-a11y babel-eslint
+npm install --save-dev eslint eslint-config-airbnb eslint-plugin-import eslint-plugin-react eslint-plugin-jsx-a11y @babel/eslint-parser eslint-plugin-react-hooks
 ```
 
 We add the following line to the `script` section in the `package.json` file.
